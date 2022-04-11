@@ -5,11 +5,9 @@ int main()
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-        int x=n;
-        for(j=1;j<=n;j++)
+        for(j=1;j<=i;j++)
         {
-            printf("%d ",x);
-            x--;
+            printf("%d",j);
         }
         printf("
 ");
