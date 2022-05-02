@@ -11,9 +11,9 @@ int main(){
         }
         else{
             while (1){
-                r=x%10;
-                x=x/10;
-                sum+=r;
+                r=x%10;//8
+                x=x/10;//3
+                sum+=r;//8
                 if(x==0){
                     x=sum;
                     n=sum;
